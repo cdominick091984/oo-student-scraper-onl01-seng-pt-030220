@@ -16,7 +16,6 @@ class Scraper
         name: student_card.css('h4.student-name').text,
         location: student_card.css('p.student-location').text
       }
-
       # shovels student student_info from hash to array
       student_array << hash
     end
